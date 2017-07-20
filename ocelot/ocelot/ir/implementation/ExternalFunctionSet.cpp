@@ -23,9 +23,9 @@
 // LLVM Includes
 #if HAVE_LLVM
 #include <llvm/Transforms/Scalar.h>
-#include <llvm/PassManager.h>
+#include <llvm/IR/LegacyPassManager.h>
 #include <llvm/ExecutionEngine/ExecutionEngine.h>
-#include <llvm/Assembly/Parser.h>
+#include <llvm/AsmParser/Parser.h>
 #include <llvm/Analysis/Verifier.h>
 #include <llvm/IR/LLVMContext.h>
 #include <llvm/IR/Module.h>
